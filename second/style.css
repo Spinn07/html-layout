@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.left-column {
+  background-color:#3e71e4;
+  height: 100vh;
+  float: left;
+  width: calc(100vw/3);
+
+}
+.middle-column {
+  background-color:#bdda87;
+  height: 80vh;
+  width: calc(100vw/3);
+  float: right;
+}
+.right-column {
+  background-color: #56d7ad;
+  height: 100vh;
+  width: calc(100vw/3);
+  float: right;
+}
+.image {
+  height:20vh;
+  background-color: #cd2044;
+  width: calc(100vw/3);
+  font-size: 25px;
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  padding-left: 45px;
+  padding-top:  75px;
+  color: white;
+
+
+}
